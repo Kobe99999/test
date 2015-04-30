@@ -1,0 +1,16 @@
+
+public class TestIntSort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub      董光耀  201303011185  计科13-2 
+		IntSort s=new IntSort();
+		  int a=30,b=12,c=40;
+		  int arr[]={34,8,12,67,44,98,52,23,16,16};
+		  System.out.print("两个数的排序结果："+s.sort(a,b));
+		  System.out.print("三个数的排序结果："+s.sort(a,b,c));
+		  System.out.print("数组的排序结果："+s.sort(arr));
+		 
+
+	}
+
+}
